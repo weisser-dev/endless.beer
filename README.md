@@ -2,7 +2,7 @@
 
 Created by Erik Weisser, [weisser.dev](https://weisser.dev/), 2019
 
-This fun web page was created on a Friday night when Erik Weisser was bored and enjoying some beer on the sofa.
+This fun web page was created on a Friday night where i w8 for the next dota round.
 
 ## About
 Endless Beer is a whimsical web page that displays a humorous ASCII art of beer pouring endlessly. It's a simple and fun page that captures the spirit of a relaxed Friday night with a sense of humor.
@@ -27,4 +27,4 @@ Visit [Endless Beer](https://weisser-dev.github.io/endless.beer/) and have a goo
 
 ---
 
-For more fun and quirky projects by Erik Weisser, visit my [GitHub](https://github.com/weisser-dev).
+For more fun and quirky projects by me, visit my [GitHub](https://github.com/weisser-dev).
