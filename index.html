@@ -1,31 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!--
-      endless.beer
-      Erik Weisser, whit-e.com, 2019
-      created when I was bored on a friday night and I drank beer on the sofa.
-  --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <title>beeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer</title>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Endless Beer</title>
     <link rel="shortcut icon" href="https://endless.beer/favicon.png">
     <link href="./style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-
     <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
     <script src="./js/jquery.jscroll.js"></script>
     <script type="text/javascript">
-      $(function () {
-        $('#beer').jscroll({
-          padding: 10,
-          loadingHtml: ''
+        $(function () {
+            $('#beer').jscroll({
+                padding: 10,
+                loadingHtml: '',
+                nextSelector: 'a.jscroll-next:last',
+                contentSelector: 'div.jscroll-inner'
+            });
         });
-      });
     </script>
-  </head>
-  <body>
-<div id="beer" class="centered"><div class="jscroll-inner">
-        <pre>   
-                  __ . _, . _ .  __, .__  
-                 _(_0o),,_)o(_)O,(__)o(__)o_,   __ 
+</head>
+<body>
+<div id="beer" class="centered">
+    <div class="jscroll-inner">
+        <pre>
+                  __ . _, . _ .  __, .__
+                 _(_0o),,_)o(_)O,(__)o(__)o_,   __
               ,o(__),_)o(_)O,(__)o,o(__),_)_)O,(__)o_,__
             o(_,-o(_ )(),(__(_)oO)_o(_,-o(_ )(),(__(_)oO)_
             .O(__)o,__).(_ )o(_)Oo_).O(__)o,__).(_ )o(_)Oo_)
@@ -53,9 +52,10 @@
       |  |   |       |       |       |       |       |
       |  |   |       |       |       |       |       |
       |  |   |       |       |       |       |       |
-      |  |   |       |       |       |       |       | 
-      |  |   |       |       |       |       |       |</pre>
+      |  |   |       |       |       |       |       |
+</pre>
+    </div>
+    <div class="jscroll-next-parent" style="display: none;"><a class="jscroll-next" href="https://endless.beer/moreBeer.html"></a></div>
 </div>
-<div class="jscroll-next-parent" style="display: none;"><a href="https://endless.beer/moreBeer.html"></a></div>
-</div></div>
-</body></html>
+</body>
+</html>
