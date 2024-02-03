@@ -1,7 +1,5 @@
 # Endless Beer Fun Page
 
-![Endless Beer Logo]([https://endless.beer/favicon.png](https://weisser-dev.github.io/endless.beer/))
-
 Created by Erik Weisser, [weisser.dev](https://weisser.dev/), 2019
 
 This fun web page was created on a Friday night when Erik Weisser was bored and enjoying some beer on the sofa.
